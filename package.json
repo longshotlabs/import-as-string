@@ -1,0 +1,45 @@
+{
+  "name": "import-as-string",
+  "description": "Import the contents of any file into a Node.js ES module as a string",
+  "version": "1.0.0",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "type": "module",
+  "engines": {
+    "node": ">=12"
+  },
+  "homepage": "https://github.com/aldeed/import-as-string",
+  "url": "https://github.com/aldeed/import-as-string",
+  "email": "info@dairystatedesigns.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aldeed/import-as-string.git"
+  },
+  "author": {
+    "name": "Eric Dobbertin",
+    "email": "info@dairystatedesigns.com",
+    "url": "https://dairystatedesigns.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aldeed/import-as-string/issues"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "prepublishOnly": "npm test",
+    "test": "node --no-warnings tests/test.js"
+  },
+  "dependencies": {
+    "callsite": "^1.0.0"
+  },
+  "prettier": {
+    "arrowParens": "always"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
